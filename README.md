@@ -1,5 +1,5 @@
-# Easy testing  Download the .exe from [here](https://github.com/oslohes123/NFFX-Easy-testing-/releases/download/1.0/Easytesting2.exe)
-# NNFX 
+#  Download the .exe from [here](https://github.com/oslohes123/NFFX-Easy-testing-/releases/download/1.0/Easytesting2.exe)
+# NNFX Easy testing  Download the .exe from [here](https://github.com/oslohes123/NFFX-Easy-testing-/releases/download/1.0/Easytesting2.exe)
  This is a program built to aid with trading in the NNFX methodology the code will be put here it is built with C# a full description of how the
  
  This program is built for windows.

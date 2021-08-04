@@ -142,16 +142,24 @@ namespace Easytesting2
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            string output = $"Wins: {wins} Losses: {losses} at this time {DateTime.Now.ToString("G")}";
+            WriteToFile();
+            
+        }
+
+
+        public void WriteToFile() {
+            double ratio = 100 * ((double)(wins) / (double)(wins + losses));
+            string output = $"Wins: {wins} Losses: {losses} Ratio: {ratio.ToString("N3")} at this time {DateTime.Now.ToString("G")}";
             using (StreamWriter sw = new StreamWriter("Data.txt", append: true))
             {
                 sw.WriteLine(output);
             }
-            
+
         }
 
         private void btn_Reset_Click(object sender, EventArgs e)
         {
+            WriteToFile();
             wins = 0;
             losses = 0;
             UpdateLabels();
@@ -184,7 +192,25 @@ namespace Easytesting2
 
         }
 
-        
+        private void lnk_Github_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                VisitLink();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link that was clicked.");
+            }
+        }
+        private void VisitLink()
+        {
+            // Change the color of the link text by setting LinkVisited
+            // to true.
+            lnk_Github.LinkVisited = true;
+            //Call the Process.Start method to open the default browser
+            //with a URL:
+            System.Diagnostics.Process.Start("https://github.com/oslohes123/NFFX-Easy-testing-");
+        }
     }
-    
 }

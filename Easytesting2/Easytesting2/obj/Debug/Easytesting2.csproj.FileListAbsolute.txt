@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\bin\Debug\Easytesting2.exe.config
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\bin\Debug\Easytesting2.exe
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\bin\Debug\Easytesting2.pdb
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Debug\Easytesting2.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Debug\Easytesting2.Form1.resources
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Debug\Easytesting2.Properties.Resources.resources
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Debug\Easytesting2.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Debug\Easytesting2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Debug\Easytesting2.exe
+C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Debug\Easytesting2.pdb

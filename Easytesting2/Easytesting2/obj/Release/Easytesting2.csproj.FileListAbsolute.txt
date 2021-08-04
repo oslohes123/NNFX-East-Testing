@@ -7,3 +7,13 @@ C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Release\Easyte
 C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Release\Easytesting2.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Release\Easytesting2.exe
 C:\Users\Administrator\source\repos\Easytesting2\Easytesting2\obj\Release\Easytesting2.pdb
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\bin\Release\Easytesting2.exe.config
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\bin\Release\Easytesting2.exe
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\bin\Release\Easytesting2.pdb
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\obj\Release\Easytesting2.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\obj\Release\Easytesting2.Form1.resources
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\obj\Release\Easytesting2.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\obj\Release\Easytesting2.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\obj\Release\Easytesting2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\obj\Release\Easytesting2.exe
+C:\Users\Administrator\Documents\GitHub\NFFX-Easy-testing-\Easytesting2\Easytesting2\obj\Release\Easytesting2.pdb

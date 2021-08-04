@@ -109,22 +109,29 @@ namespace Easytesting2
 
         private void btn_Timer_Click(object sender, EventArgs e)
         {
-            string message;
-            TimeSpan ts = stopwatch.Elapsed;
-            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-          ts.Hours, ts.Minutes, ts.Seconds,
-          ts.Milliseconds / 10);
-
-            if (Trades.Peek() == TradeOutcome.Win)
+            if(stopwatch.IsRunning == false)
             {
-                message = $"{elapsedTime} and the last button was a win";
+                MessageBox.Show("The stopwatch was not running");
             }
             else
             {
-                message = $"{elapsedTime} and the last button was a loss";
+                string message;
+                TimeSpan ts = stopwatch.Elapsed;
+                string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+              ts.Hours, ts.Minutes, ts.Seconds,
+              ts.Milliseconds / 10);
 
+                if (Trades.Peek() == TradeOutcome.Win)
+                {
+                    message = $"{elapsedTime} and the last button was a win";
+                }
+                else
+                {
+                    message = $"{elapsedTime} and the last button was a loss";
+
+                }
+                MessageBox.Show(message);
             }
-            MessageBox.Show(message);
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
@@ -157,6 +164,8 @@ namespace Easytesting2
                 stopwatch.Restart();
                 UpdateLabels();
                 Trades.Pop();
+                stopwatch.Stop();
+                stopwatch.Reset();
             }
             else if(Trades.Peek() == TradeOutcome.Loss)
             {
@@ -164,6 +173,7 @@ namespace Easytesting2
                 stopwatch.Restart();
                 UpdateLabels();
                 Trades.Pop();
+                stopwatch.Reset();
             }
 
         }

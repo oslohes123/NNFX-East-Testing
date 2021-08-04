@@ -24,9 +24,9 @@ Download the .exe from [here](https://github.com/oslohes123/NFFX-Easy-testing-/r
 These formula's are used to calculate the stoploss takeprofit and dollers per pip which are calculated.
 
 Risk = 2% of trading account 
-Stop loss = 1.5x ATR pips below the price level
-Take Profit = 1x ATR pips above the price level
-Dollars per pip = RISK/ 1.5x ATR
+Stop loss = 1.5x ATR pips below the price level <br />
+Take Profit = 1x ATR pips above the price level <br />
+Dollars per pip = RISK/ 1.5x ATR <br />
 
 
 

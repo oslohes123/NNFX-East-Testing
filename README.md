@@ -1,4 +1,4 @@
-# NFFX Easy testing 
+# NNFX Easy testing 
  This is a program built to aid with trading in the NNFX methodology the code will be put here it is built with C# a full description of how the
  
  This program is built for windows.
@@ -19,6 +19,15 @@
 ## Installation
 
 Download the .exe from [here](https://github.com/oslohes123/NFFX-Easy-testing-/releases/download/1.0/Easytesting2.exe)
+
+## Calculation
+These formula's are used to calculate the stoploss takeprofit and dollers per pip which are calculated.
+
+Risk = 2% of trading account 
+Stop loss = 1.5x ATR pips below the price level
+Take Profit = 1x ATR pips above the price level
+Dollars per pip = RISK/ 1.5x ATR
+
 
 
 

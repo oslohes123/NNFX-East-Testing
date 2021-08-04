@@ -47,6 +47,9 @@ namespace Easytesting2
             this.label6 = new System.Windows.Forms.Label();
             this.lbl_Wins = new System.Windows.Forms.Label();
             this.btn_Reset = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_Ratio = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // chkbx_AlwaysOntop
@@ -183,10 +186,11 @@ namespace Easytesting2
             // lbl_Losses
             // 
             this.lbl_Losses.AutoSize = true;
-            this.lbl_Losses.Location = new System.Drawing.Point(187, 114);
+            this.lbl_Losses.Location = new System.Drawing.Point(187, 109);
             this.lbl_Losses.Name = "lbl_Losses";
-            this.lbl_Losses.Size = new System.Drawing.Size(0, 13);
+            this.lbl_Losses.Size = new System.Drawing.Size(12, 13);
             this.lbl_Losses.TabIndex = 17;
+            this.lbl_Losses.Text = "x";
             // 
             // label6
             // 
@@ -202,8 +206,9 @@ namespace Easytesting2
             this.lbl_Wins.AutoSize = true;
             this.lbl_Wins.Location = new System.Drawing.Point(187, 68);
             this.lbl_Wins.Name = "lbl_Wins";
-            this.lbl_Wins.Size = new System.Drawing.Size(0, 13);
+            this.lbl_Wins.Size = new System.Drawing.Size(12, 13);
             this.lbl_Wins.TabIndex = 19;
+            this.lbl_Wins.Text = "x";
             // 
             // btn_Reset
             // 
@@ -215,11 +220,41 @@ namespace Easytesting2
             this.btn_Reset.UseVisualStyleBackColor = true;
             this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(187, 139);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(32, 13);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "Ratio";
+            // 
+            // lbl_Ratio
+            // 
+            this.lbl_Ratio.AutoSize = true;
+            this.lbl_Ratio.Location = new System.Drawing.Point(187, 159);
+            this.lbl_Ratio.Name = "lbl_Ratio";
+            this.lbl_Ratio.Size = new System.Drawing.Size(12, 13);
+            this.lbl_Ratio.TabIndex = 22;
+            this.lbl_Ratio.Text = "x";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 23;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(441, 285);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lbl_Ratio);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_Reset);
             this.Controls.Add(this.lbl_Wins);
             this.Controls.Add(this.label6);
@@ -267,6 +302,9 @@ namespace Easytesting2
         private System.Windows.Forms.Label lbl_Wins;
         private System.Windows.Forms.Button btn_Reset;
         public System.Windows.Forms.RichTextBox rtxt_Output;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbl_Ratio;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -83,6 +83,10 @@ namespace Easytesting2
         {
             chkbx_AlwaysOntop.Checked = true;
             this.TopMost = true;
+            lbl_Wins.Text ="0";
+            lbl_Losses.Text = "0";
+            lbl_Ratio.Text = "0";
+
         }
 
         private void btn_Win_Click(object sender, EventArgs e)
@@ -105,6 +109,8 @@ namespace Easytesting2
         {
             lbl_Wins.Text = $"{wins}";
             lbl_Losses.Text = $"{losses}";
+            double ratio = 100 * ((double)(wins) / (double)(wins + losses));
+            lbl_Ratio.Text = ratio.ToString("N2")+"%";
         }
 
         private void btn_Timer_Click(object sender, EventArgs e)
@@ -177,6 +183,8 @@ namespace Easytesting2
             }
 
         }
+
+        
     }
     
 }

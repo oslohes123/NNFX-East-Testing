@@ -13,9 +13,11 @@
  3. The program uses a stack to remember your last win/loss right down to the first trade so you can go back if you made a mistake.
  4. Time till previous click shows you how long ago you clicked either win/loss
  You use this if you forgot whether you clicked win/loss already if it is a long time then you may have not 
- 5.You can reset the program using the reset button
  
- Trades are saved in a data file with the wins/losses/ratio + date
+ 5.You can reset the program using the reset button and your trades will be saved in the data document which is created in the same place as where you place the .exe
+ E.g if your program file is on the desktop the data file which is a .txt file will be on the desktop aswell
+ 
+
 
 ## Installation
 
